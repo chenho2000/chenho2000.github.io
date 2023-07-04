@@ -20,6 +20,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import linkedin from "./LinkedIn.svg";
+import ghub from "./github.png";
+import email from "./email.png";
 
 import az from "./tech/az.svg";
 import Bash from "./tech/Bash.svg";
@@ -31,8 +34,6 @@ import pytc from "./tech/pytc.svg";
 import r from "./tech/R.svg";
 import skl from "./tech/skl.svg";
 import py from "./tech/Python.svg";
-
-
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -46,6 +47,7 @@ import filesys from "./filesys.jpg";
 import inp from "./inp.jpg";
 import time from "./time.jpg";
 
+import me from "./me.jpg";
 
 export {
   az,
@@ -57,6 +59,7 @@ export {
   pytc,
   r,
   py,
+  me,
   skl,
   logo,
   backend,
@@ -74,6 +77,7 @@ export {
   javascript,
   mongodb,
   nodejs,
+  email,
   reactjs,
   redux,
   tailwind,
@@ -83,10 +87,12 @@ export {
   shopify,
   starbucks,
   tesla,
+  ghub,
   ut,
   uw,
   tc,
   filesys,
   inp,
-  time
+  time,
+  linkedin,
 };

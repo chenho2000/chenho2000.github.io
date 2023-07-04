@@ -34,19 +34,19 @@
 }
 
 .violet-gradient {
-  background: #98C5E9;
-  background: linear-gradient(-90deg, #98C5E9 0%, rgba(60, 51, 80, 0) 100%);
+  background: #98c5e9;
+  background: linear-gradient(-90deg, #98c5e9 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #98C5E9 0%,
+    #98c5e9 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
 
 .green-pink-gradient {
   background: "#00cea8";
-  background: linear-gradient(90.13deg, #6CABDD 1.9%, #3BD6FF 97.5%);
-  background: -webkit-linear-gradient(-90.13deg, #6CABDD 1.9%, #3BD6FF 97.5%);
+  background: linear-gradient(90.13deg, #6cabdd 1.9%, #3bd6ff 97.5%);
+  background: -webkit-linear-gradient(-90.13deg, #6cabdd 1.9%, #3bd6ff 97.5%);
 }
 
 .orange-text-gradient {
@@ -201,4 +201,8 @@
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
+}
+
+.align {
+  text-align: justify;
 }

@@ -125,7 +125,6 @@ const technologies = [
     name: "skl",
     icon: skl,
   },
-
 ];
 
 const experiences = [
@@ -152,7 +151,7 @@ const experiences = [
       "CSC413 : Neural Networks and Deep Learning",
       "CSC369 : Operating Systems",
       "CSC358 : Principles of Computer Networks",
-      "CSC309 : Programming on the Web"
+      "CSC309 : Programming on the Web",
     ],
   },
   {
@@ -175,9 +174,7 @@ const experiences = [
     icon: uw,
     iconBg: "#FFFFFF",
     date: "Sep 2023 - Present",
-    points: [
-      
-    ],
+    points: [],
   },
 ];
 
@@ -228,7 +225,8 @@ const projects = [
       },
     ],
     image: filesys,
-    source_code_link: "https://github.com/chenho2000/File-System-Implementation",
+    source_code_link:
+      "https://github.com/chenho2000/File-System-Implementation",
   },
   {
     name: "Region Filling and Object Removal",
@@ -249,12 +247,13 @@ const projects = [
       },
     ],
     image: inp,
-    source_code_link: "https://github.com/chenho2000/Region-Filling-and-Object-Removal",
+    source_code_link:
+      "https://github.com/chenho2000/Region-Filling-and-Object-Removal",
   },
   {
     name: "Timer Turner",
     description:
-    " A JavaScript library designed to simplify your life by replacing the native JavaScript Date object. With Use Time Object, you can experience enhanced convenience and ease in handling time-related operations.",
+      " A JavaScript library designed to simplify your life by replacing the native JavaScript Date object. With Use Time Object, you can experience enhanced convenience and ease in handling time-related operations.",
     tags: [
       {
         name: "JavaScript",
@@ -270,7 +269,8 @@ const projects = [
       },
     ],
     image: time,
-    source_code_link: "https://github.com/chenho2000/js-library-chenho92/tree/master",
+    source_code_link:
+      "https://github.com/chenho2000/js-library-chenho92/tree/master",
   },
 ];
 
