@@ -47,7 +47,7 @@ import filesys from "./filesys.jpg";
 import inp from "./inp.jpg";
 import time from "./time.jpg";
 
-import me from "./me.jpg";
+import me from "./me.png";
 
 export {
   az,
