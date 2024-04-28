@@ -161,11 +161,16 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "Sep 2021 - Present",
     points: [
-      "Construct Surveillance Analytical Risk Algorithm (SARA) with the team.",
-      "Coded and debugged SARA-P (Python) which provides a mathematical calculation and derivation of risk scores using an automated python program in the Databricks Azure platform. This improves planning for the five Transport Canada regions.",
-      "Using Power apps and Data verse constructs the data collection tool “SARA-Q” (Questionnaire) which provides the risk scores compiled from questionnaires answered by inspectors. SARA-Q is developed for replacing the current practice of collecting inspectors' heuristic judgments about the risk of specific air operators.",
-      "Using Power-bi to construct “SARA-R” (Report). It combines both in the form of visualization and provides an understanding of analyzing trends in the surveillance risk planning or any outliers associated with the risk scores.",
-      "Analysis of data using python / R and construction of data visualization dashboard using power bi for ‘rail safety’ inspection plans.",
+      "As a specialist in data science, I contribute to the development and deployment of advanced risk assessment methodologies for Transport Canada's regional operations. Key contributions include:",
+      "Architecting and implementing sophisticated risk algorithms using Python on the Databricks Azure platform, automating risk score calculations and enhancing planning efficiency.",
+      "Developing intuitive data collection tools utilizing Power Apps and Data Verse, revolutionizing the assessment process by replacing heuristic judgments with questionnaire-based analytics.",
+      "Designing insightful reports with Power BI, offering comprehensive visualizations for trend analysis and outlier detection in surveillance risk planning.",
+      "Conducting data analysis and crafting dynamic visualization dashboards using Python/R, empowering informed decision-making in safety inspection plans.",
+      "Python: Automate tasks with scripts, Analyze data using libraries like Pandas, Build machine learning models",
+      "Microsoft Azure:Deploy cloud resources, Use Azure SQL Database, Orchestrate data workflows with Azure Data Factory, Develop machine learning models with Azure ML.",
+      "Oracle Database (SQL): Manage and optimize databases, Write SQL queries, Design database schemas.",
+      "Power BI: Create interactive dashboards, Clean and transform data with Power Query, Develop data models, Share insights with stakeholders.",
+      "Tableau: Develop interactive visualizations, Connect to various data sources. Create calculations and calculated fields, Share insights with colleagues."
     ],
   },
   {
@@ -174,7 +179,12 @@ const experiences = [
     icon: uw,
     iconBg: "#FFFFFF",
     date: "Sep 2023 - Present",
-    points: [],
+    points: ["STAT 845 Statistical Concepts for Data Science : frequentist and Bayesian inference, EM algorithm, the Gibbs sampler, bootstrap, linear models, survey sampling, experimental design", 
+    "STAT 847 Exploratory Data Analysis : File format handling, Data cleaning and organization, Statistical analysis, Missing data management, Regression modeling, Variable selection, Dimensional plotting, Publication-quality visuals, Confidential data handling", 
+    "STAT 940 Deep Learning : Feedforward Deep Networks, Optimization and regularization for Training Deep Models, Convolutional Networks, Recurrent Neural Networks, Seq2seq models, Deep Generative Models (Moment Matching Networks), Generative Adversarial Networks (GANs), Attention, Self-attention, Transformers, Performers, BERT, GPT, Auto-Encoders, Variational Autoencoders, Deep Reinforcement Learning, Graph Neural Networks, Diffusion models", 
+    "CS 794 Optimization for Data Science: Linear system (linear regression), Gradient Descent (logistic regression), Projected Gradient (white-box adversarial attack), Proximal Gradient (lasso), Conditional Gradient (recommendation system), Subgradient (svm), Mirror Descent (reinforcement learning), Metric Gradient (distributed learning), Coordinate Gradient (graph clustering), Fictitious Play (poker), Acceleration (total variation denoising), Smoothing (robust svm), Alternating (VAE), Minimax (adversarial training), Averaging (GANs), Splitting (federated learning), Extragradient (max entropy), Stochastic Gradient (Boltzmann machine), Variance Reduction (boosting), Derivative-free (black-box adversarial attack), Riemannian Gradient (hyperbolic embedding), Newton (NAS), Extrapolation (PageRank)",
+    "CS 631 Data-Intensive Distributed Analytics : Big Data, MapReduce Algorithm Design, Spark, Analyzing Text, Analyzing Graphs, Data Mining and Machine Learning, Analyzing Relational Data, Real-Time Analytics (Streaming), Mutable State (Big Table / HBase), Analyzing Graphs (Giraph, Spark GraphX)", 
+    ],
   },
 ];
 
@@ -209,7 +219,7 @@ const projects = [
   {
     name: "VS (EXT-based) File System",
     description:
-      "Designed structure of File system (placement of different block groups, information to be stored in each different block)",
+      "Structured the file system design based on EXT,",
     tags: [
       {
         name: "C",
@@ -229,31 +239,31 @@ const projects = [
       "https://github.com/chenho2000/File-System-Implementation",
   },
   {
-    name: "Region Filling and Object Removal",
+    name: "Live Object Tracking",
     description:
-      "Developed a program to fill the missing pixels of an image or remove an object from the image.",
+      "Presents a novel algorithm integrating efficient transformer variants like CMT and WaveViT into the Siamese network architecture.",
     tags: [
       {
-        name: "opencv",
+        name: "Object Tracking",
         color: "blue-text-gradient",
       },
       {
-        name: "Inpainting",
+        name: "Vision Transformer",
         color: "green-text-gradient",
       },
       {
-        name: "Computer Vision",
+        name: "CV",
         color: "pink-text-gradient",
       },
     ],
     image: inp,
     source_code_link:
-      "https://github.com/chenho2000/Region-Filling-and-Object-Removal",
+      "https://github.com/chenho2000/Live-Object-Tracking-using-Efficient-Vision-Transformers",
   },
   {
     name: "Timer Turner",
     description:
-      " A JavaScript library designed to simplify your life by replacing the native JavaScript Date object. With Use Time Object, you can experience enhanced convenience and ease in handling time-related operations.",
+      " Experience enhanced convenience with Use Time Object, a JavaScript library designed to streamline time-related operations by replacing the native Date object.",
     tags: [
       {
         name: "JavaScript",

@@ -103,7 +103,7 @@ const Contact = () => {
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
+              placeholder="What's your name?"
               className="bg-secondary py-4 px-6 placeholder:text-tertiary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
