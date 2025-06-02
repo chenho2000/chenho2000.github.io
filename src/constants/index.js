@@ -36,6 +36,7 @@ import {
   inp,
   time,
   threejs,
+  timmies
 } from "../assets";
 
 export const navLinks = [
@@ -155,11 +156,11 @@ const experiences = [
     ],
   },
   {
-    title: "Data Science FSWEP Student",
+    title: "Data Scientist",
     company_name: "Transport Canada",
     icon: tc,
     iconBg: "#FFFFFF",
-    date: "Sep 2021 - Present",
+    date: "Sep 2021 - Aug 2024",
     points: [
       "As a specialist in data science, I contribute to the development and deployment of advanced risk assessment methodologies for Transport Canada's regional operations. Key contributions include:",
       "Architecting and implementing sophisticated risk algorithms using Python on the Databricks Azure platform, automating risk score calculations and enhancing planning efficiency.",
@@ -184,6 +185,27 @@ const experiences = [
     "STAT 940 Deep Learning : Feedforward Deep Networks, Optimization and regularization for Training Deep Models, Convolutional Networks, Recurrent Neural Networks, Seq2seq models, Deep Generative Models (Moment Matching Networks), Generative Adversarial Networks (GANs), Attention, Self-attention, Transformers, Performers, BERT, GPT, Auto-Encoders, Variational Autoencoders, Deep Reinforcement Learning, Graph Neural Networks, Diffusion models", 
     "CS 794 Optimization for Data Science: Linear system (linear regression), Gradient Descent (logistic regression), Projected Gradient (white-box adversarial attack), Proximal Gradient (lasso), Conditional Gradient (recommendation system), Subgradient (svm), Mirror Descent (reinforcement learning), Metric Gradient (distributed learning), Coordinate Gradient (graph clustering), Fictitious Play (poker), Acceleration (total variation denoising), Smoothing (robust svm), Alternating (VAE), Minimax (adversarial training), Averaging (GANs), Splitting (federated learning), Extragradient (max entropy), Stochastic Gradient (Boltzmann machine), Variance Reduction (boosting), Derivative-free (black-box adversarial attack), Riemannian Gradient (hyperbolic embedding), Newton (NAS), Extrapolation (PageRank)",
     "CS 631 Data-Intensive Distributed Analytics : Big Data, MapReduce Algorithm Design, Spark, Analyzing Text, Analyzing Graphs, Data Mining and Machine Learning, Analyzing Relational Data, Real-Time Analytics (Streaming), Mutable State (Big Table / HBase), Analyzing Graphs (Giraph, Spark GraphX)", 
+    "CS 680 Introduction to Machine Learning :  Linear models, Neural networks, Decision trees, Generative models, and Sequence models, applied to areas such as Natural Language Processing, Computer Vision, and Robotics. ",
+    "STAT 844 Statistical Learning - Advanced Regression : Robust Regression, Nonparametric Regression such as Smoothing Splines, Kernels, Additivemodels, Tree Based Methods, Boosting and Bagging, and Penalized Linear Regression methods such as the Ridge Rregression, Lasso, and their variants.",
+    "CS 679 Nerual Network : Simpleneuron models and networks of neurons. Training feedforward networks for classification or regression.Learning using the backpropagation of errors. Unsupervised learning methods. Optimal linear decoding.Recurrent neural networks. Convolutional neural networks. Advanced topics, including adversarial inputs andbiologically plausible learning methods.",
+    "SYDE 770 Deployment of Deep Learning Models : Gain practical knowledge on various computer vision tasks such as semantic segmentation, object detection, optical flow, and depth estimation. Selecting appropriate network architectures, data preparation and handling, to deployment on edge devices. Infrastructure setup, training, and model compression techniques to ensure efficient deployment." 
+    ],
+  },
+   {
+    title: "AI Developer",
+    company_name: "Employment and Social Development Canada",
+    icon: tc,
+    iconBg: "#FFFFFF",
+    date: "Sep 2024 - Present",
+    points: [
+      "Developed, deployed, and maintained a domain-specific Agent chatbot application using React.js and Agentic RAG",
+      "Leveraged Azure Functions (Timer, Queue, Event Grid triggers) for automated file handling",
+      "Integrated Azure Blob Storage and Cosmos DB for scalable data storage",
+      "Implemented CI/CD pipelines using Azure DevOps for seamless build, testing, and deployment",
+      "Enforced Role-Based Access Control (RBAC) with Azure Active Directory",
+      "Managed user groups and permissions for secure access to storage, vector indexes, and user roles.",
+      "Fine-tuned Llama 3 using Azure Machine Learning Studio and Azure AI Foundry to improve domain-specific accuracy.",
+      "Conducted adversarial testing using PyRIT and Promptfoo, identifying and mitigating 85%+ of compliance risks."
     ],
   },
 ];
@@ -261,26 +283,26 @@ const projects = [
       "https://github.com/chenho2000/Live-Object-Tracking-using-Efficient-Vision-Transformers",
   },
   {
-    name: "Timer Turner",
+    name: "Paper Cup Classification",
     description:
-      " Experience enhanced convenience with Use Time Object, a JavaScript library designed to streamline time-related operations by replacing the native Date object.",
+      " A computer vision system for detecting Tim Hortons cups (Timmies) and generic paper cups in images using YOLOv11. Covers the full ML lifecycle.",
     tags: [
       {
-        name: "JavaScript",
+        name: "CV",
         color: "blue-text-gradient",
       },
       {
-        name: "CSS",
+        name: "Deployment",
         color: "green-text-gradient",
       },
       {
-        name: "HTML",
+        name: "YOLO",
         color: "pink-text-gradient",
       },
     ],
-    image: time,
+    image: timmies,
     source_code_link:
-      "https://github.com/chenho2000/js-library-chenho92/tree/master",
+      "https://github.com/chenho2000/Paper-Cup-Brand-Classification",
   },
 ];
 

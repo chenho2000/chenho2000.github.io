@@ -46,7 +46,7 @@ import tc from "./company/tc.svg";
 import filesys from "./filesys.jpg";
 import inp from "./inp.jpg";
 import time from "./time.jpg";
-
+import timmies from "./timmies.jpg";
 import me from "./me.png";
 
 export {
@@ -86,6 +86,7 @@ export {
   meta,
   shopify,
   starbucks,
+  timmies,
   tesla,
   ghub,
   ut,
